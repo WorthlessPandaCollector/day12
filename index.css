@@ -1,0 +1,73 @@
+body {
+    font-family: system-ui;
+    margin: 0;
+    padding: 10;
+}
+
+header {
+    position:sticky;
+    background-color: greenyellow;
+    text-align: center;
+    padding: 5px;
+    width: 50%;
+}
+
+header img {
+    width: 80%;
+    height: 10%;
+}
+
+div {
+    width: 69%;
+    position: relative;
+    top: 50px;
+    background: linear-gradient(teal, orange);
+    font-size: 1.2rem;
+    text-align: left;
+    padding: 0;
+    word-wrap: break-word;
+
+}
+
+
+
+
+#ens-prompt {
+    background: linear-gradient(pink, gold);
+
+}
+
+.side-panel {
+    position:sticky;
+    top: 0px;
+
+}
+
+
+
+button {
+    background-color: aqua;
+    width: 200px;
+    color:blueviolet;    
+    transition: background-color 1.5s ease-in-out;
+    transition: 2s;
+}
+
+button:hover {
+    width: 420px;
+    background-color: black;
+    font-weight: 1000;
+
+}
+
+#prompt-test {
+    background-color: gray;
+    color: black;
+
+}
+
+#prompt-test:hover {
+    background-color: aliceblue;
+
+}
+
